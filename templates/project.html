@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .project {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .project h2 {
+            color: #333;
+        }
+        .project p {
+            color: #555;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .project a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Projects</h1>
+    </header>
+
+    <div class="container">
+        <!-- Project 1: Plant Disease Detection -->
+        <div class="project">
+            <h2>Plant Disease Detection</h2>
+            <img src="static\plant_detection.jpg" alt="Plant Disease Detection">
+            <p>
+                This project focuses on detecting plant diseases using machine learning algorithms. 
+                By analyzing images of plant leaves, the system identifies whether the plant is healthy or affected by any diseases.
+            </p>
+            <a href="https://github.com/yourusername/plant-disease-detection" target="_blank">View Project</a>
+        </div>
+
+        <!-- Project 2: Sign Language Detection -->
+        <div class="project">
+            <h2>Sign Language Detection</h2>
+            <img src="static\sign_language.jpg" alt="Sign Language Detection">
+            <p>
+                This project helps in recognizing and translating sign language gestures into text using deep learning models, 
+                assisting communication for the deaf and hard of hearing.
+            </p>
+            <a href="https://github.com/yourusername/sign-language-detection" target="_blank">View Project</a>
+        </div>
+    </div>
+</body>
+</html>
